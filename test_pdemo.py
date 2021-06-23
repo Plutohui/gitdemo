@@ -15,4 +15,4 @@ def test_answer():
 
 
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main(['-v','--html=report/test_pdemo.html', '--junitxml=report/test_pdemo.xml'])
