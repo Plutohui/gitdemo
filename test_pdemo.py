@@ -3,7 +3,7 @@ import pytest
 
 def test_add():
     a = 2
-    b = 7
+    b = 2
     assert a == b
 
 def sub(x):
@@ -11,12 +11,12 @@ def sub(x):
 
 def test_answer():
 
-    assert sub(6) == 5
+    assert sub(10) == 5
 
 def test_add_2():
     a = 5
     b = 5
-    assert a * b <= 50
+    assert a * b <= 10
 
 
 if __name__ == '__main__':
