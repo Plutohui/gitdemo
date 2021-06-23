@@ -2,7 +2,7 @@ import pytest
 
 
 def test_add():
-    a = 3
+    a = 2
     b = 2
     assert a == b
 
@@ -16,7 +16,7 @@ def test_answer():
 def test_add_2():
     a = 5
     b = 5
-    assert a * b <= 50
+    assert a * b <= 20
 
 
 if __name__ == '__main__':

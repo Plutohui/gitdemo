@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.164" timestamp="2021-06-23T11:23:45.555871" hostname="DESKTOP-IFANMFL"><testcase classname="test_pdemo" name="test_add" time="0.001"><failure message="assert 3 == 2&#10;  +3&#10;  -2">def test_add():
-        a = 3
-        b = 2
-&gt;       assert a == b
-E       assert 3 == 2
-E         +3
-E         -2
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.262" timestamp="2021-06-23T12:36:13.006169" hostname="DESKTOP-IFANMFL"><testcase classname="test_pdemo" name="test_add" time="0.001" /><testcase classname="test_pdemo" name="test_answer" time="0.001" /><testcase classname="test_pdemo" name="test_add_2" time="0.001"><failure message="assert (5 * 5) &lt;= 20">def test_add_2():
+        a = 5
+        b = 5
+&gt;       assert a * b &lt;= 20
+E       assert (5 * 5) &lt;= 20
 
-test_pdemo.py:7: AssertionError</failure></testcase><testcase classname="test_pdemo" name="test_answer" time="0.001" /><testcase classname="test_pdemo" name="test_add_2" time="0.001" /></testsuite></testsuites>
+test_pdemo.py:19: AssertionError</failure></testcase></testsuite></testsuites>
