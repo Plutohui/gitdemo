@@ -13,6 +13,11 @@ def test_answer():
 
     assert sub(6) == 5
 
+def test_add_2():
+    a = 5
+    b = 5
+    assert a * b <= 50
+
 
 if __name__ == '__main__':
     pytest.main()
