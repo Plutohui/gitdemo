@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="3" time="0.030" timestamp="2021-06-23T11:09:29.306830" hostname="DESKTOP-IFANMFL"><testcase classname="test_pdemo" name="test_add" time="0.001" /><testcase classname="test_pdemo" name="test_answer" time="0.001" /><testcase classname="test_pdemo" name="test_add_2" time="0.001" /></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.164" timestamp="2021-06-23T11:23:45.555871" hostname="DESKTOP-IFANMFL"><testcase classname="test_pdemo" name="test_add" time="0.001"><failure message="assert 3 == 2&#10;  +3&#10;  -2">def test_add():
+        a = 3
+        b = 2
+&gt;       assert a == b
+E       assert 3 == 2
+E         +3
+E         -2
+
+test_pdemo.py:7: AssertionError</failure></testcase><testcase classname="test_pdemo" name="test_answer" time="0.001" /><testcase classname="test_pdemo" name="test_add_2" time="0.001" /></testsuite></testsuites>
