@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.171" timestamp="2021-06-23T10:38:57.146350" hostname="DESKTOP-IFANMFL"><testcase classname="test_pdemo" name="test_add" time="0.001"><failure message="assert 7 == 2&#10;  +7&#10;  -2">def test_add():
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="0.109" timestamp="2021-06-23T10:53:43.947894" hostname="DESKTOP-IFANMFL"><testcase classname="test_pdemo" name="test_add" time="0.001"><failure message="assert 7 == 2&#10;  +7&#10;  -2">def test_add():
         a = 7
         b = 2
 &gt;       assert a == b
@@ -6,4 +6,4 @@ E       assert 7 == 2
 E         +7
 E         -2
 
-test_pdemo.py:7: AssertionError</failure></testcase><testcase classname="test_pdemo" name="test_answer" time="0.001" /></testsuite></testsuites>
+test_pdemo.py:7: AssertionError</failure></testcase><testcase classname="test_pdemo" name="test_answer" time="0.002" /></testsuite></testsuites>
